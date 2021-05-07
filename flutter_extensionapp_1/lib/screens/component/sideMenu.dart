@@ -13,9 +13,7 @@ class SideMenu extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            DrawerHeader(
-                child: Image.asset("assets\images\dashboard.png",
-                    color: Colors.white)),
+            DrawerHeader(child: Image.asset("assets/images/logo.png")),
             DrawerListTile(
               title: "Dashbord",
               svgSrc: "assets/icons/menu_dashbord.svg",
